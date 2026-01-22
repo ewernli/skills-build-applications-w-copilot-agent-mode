@@ -96,7 +96,9 @@ DATABASES = {
 }
 
 # CORS configuration
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://fuzzy-space-eureka-q4p5wx9p6hxwqp-3000.app.github.dev",
+]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = ['*']
 CORS_ALLOW_METHODS = ['*']
